@@ -1,0 +1,51 @@
+.flex{
+    display: flex;
+    /* cambia el orden de prioridad del eje */
+    /* flex-direction: row; */
+    /*intercambia elementos de derecha a izquierda*/
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    /*  justify-content: center => posiciona respecto al eje horizontal
+        justify-content: start => posiciona por defecto
+        justify-content: end => posiciona al final
+        justify-content: space-between => a traves del espacio sobrante
+        justify-content: space-around => a traves del espacion sobrante dejando espacion a la derecha e izquierda
+    */
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+    /* align-items: stretch; */
+    /* posicion respecto al eje vertical */
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+}
+
+.contenido-1, .contenido-2, .contenido-3{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border:1px solid blue;
+    margin: 4px;
+}
+
+.contenido-3{
+    background-color: greenyellow;
+}
+
+/* 
+.contenido-2 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-1 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+} */

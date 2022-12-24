@@ -1,0 +1,2 @@
+Ejecutar comando de sass:
+> sass --watch ./sass/index.scss ./css/styles.css

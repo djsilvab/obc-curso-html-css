@@ -1,0 +1,12 @@
+/* .p-contenedor{
+    color: green;
+} */
+
+section.main .contenedor p{
+    color:green;
+}
+
+.contenedor #btn-contenedor{
+    background-color: yellow;
+}
+

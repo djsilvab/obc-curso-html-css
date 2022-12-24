@@ -1,0 +1,25 @@
+.div-1, .div-2{
+    background-color: red;
+    /* display: block; */
+    /* margin-top: 4px; POR DEFECTO es BLOCK */
+}
+
+.span-1, .span-2{
+    background-color: aquamarine;
+    /* display: inline;  POR DEFECTO es INLINE */
+    /* display: inline-block; permite cambiar ancho-alto */
+    /* width: 100px;
+    height: 50px; */
+    border:1px solid blue;
+    float: right;
+}
+
+.span-2{
+    float: left;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    /* display: inline-block; por defecto*/
+}
